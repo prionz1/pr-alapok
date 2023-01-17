@@ -1,0 +1,33 @@
+#első óra
+#1.1feladat
+paletta = ['piros', 'fehér', 'lila']
+
+szin = input('Szín: ')
+
+print('A', szin, 'már' if szin in paletta else 'még nem', 'szerepel a listában:', ', '.join(paletta))
+#második óra----------------------------------------------------------------------------------------------------
+##1.1feladat
+'''
+a1 = input("Adj meg egy szót ")
+print(a1.upper())
+'''
+#1.2feladat
+'''
+lista = ["ananász","banán","körte"]
+nagybetus_lista = [ x.upper() for x in lista]
+print(nagybetus_lista)
+'''
+#1.3feladat
+'''
+lista1 = ["ananász","ház","banán","körte"]
+lista2 = [szo.upper() for szo in lista1 if len(szo) > 3]
+print(lista1)
+print(lista2)
+'''
+#1.4feladat
+'''
+lista1 = ["ananÁsz","hÁz","banÁn","kÖrte"]
+lista2 = [szo.swapcase() for szo in lista1]
+print(lista1)
+print(lista2)
+'''
